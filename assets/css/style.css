@@ -13,9 +13,25 @@
     --bg_withe: #FFFFFF;
 }
 
+.flex{
+    display: flex;
+}
+
 .width_60{
     width: 60%;
     margin: auto;
+}
+
+.padding_2{
+    padding: 2rem 0;
+}
+
+.margin_2{
+    margin: 2rem 0;
+}
+
+.text_center{
+    text-align: center;
 }
 
 .col_1{width: calc(100% / 12 * 1);}
@@ -44,9 +60,7 @@
 
 /*utility*/
 
-.flex{
-    display: flex;
-}
+
 
 /*#region debug*/
 .debug .nav_container{
@@ -63,8 +77,41 @@ background-color: var(--bg_card);
 .debug .col_4{
     border: 1px solid black;
     height: 300px;
-    background-color: var(--bg_card);
+    background-color: var(--bg_nav);
     }
+
+.debug .bg_violet{
+    background-color: var(--bg_sec_violet);
+}
+
+.debug .col_6{
+    border: 1px solid black;
+    height: 500px;
+    background-color: var(--bg_footer);
+}
+
+.debug .col_3{
+    height: 100px;
+    background-color:var(--bg_sec_violet);
+    border: 1px solid black;
+}
+
+.debug .col_9{
+    height: 100px;
+    background-color:var(--bg_sec_violet);
+    border: 1px solid black;
+}
+
+.debug footer{
+    background-color: var(--bg_footer);
+    height: 300px;
+    margin-top: -2rem;
+}
+
+.height_300{
+    height: 300px;
+    background-color: var(--bg_sec_violet);
+}
 /*#endregion debug*/
 
 
@@ -75,6 +122,7 @@ background-color: var(--bg_card);
 }
 /*#endregion nav*/
 
+
 /*#region app*/
 .container{
     margin: 2rem 0;
@@ -83,5 +131,48 @@ background-color: var(--bg_card);
 .row{
     flex-wrap: wrap;
 }
-
 /*#endregion app*/
+
+
+/*#region plain*/
+
+/*#endregion plain*/
+
+
+/*#region partners*/
+
+/*#endregion partners*/
+
+
+/*#region benefits*/
+
+/*#endregion benefits*/
+
+
+/*#region about*/
+
+/*#endregion about*/
+
+
+/*#region pricing*/
+
+/*#endregion pricing*/
+
+@media screen and (min-width:768px) and (max-width:1280px) {
+    .container{
+        width: 100%;
+    }
+
+    .col_lg_6{
+        width: calc(100% / 12 * 6);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container{
+        width: 100%;
+    }
+    .col_sm_12{
+        width: calc(100%);
+    }
+}
