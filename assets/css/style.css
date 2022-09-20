@@ -164,6 +164,7 @@ body{
 .hamburger{
     color: var(--bg_withe);
     font-size: 2rem;
+    display: none;
 }
 /*#endregion nav*/
 
