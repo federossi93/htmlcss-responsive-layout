@@ -79,6 +79,10 @@
     background-color: var(--bg_sec_violet);
 }
 
+.bg_withe{
+    background-color: var(--bg_withe);
+}
+
 .col_1{width: calc(100% / 12 * 1);}
 
 .col_2{width: calc(100% / 12 * 2);}
@@ -290,7 +294,6 @@
     margin: auto;
     margin-bottom: 2rem;
     line-height: 2rem;
-    letter-spacing: 2px;
     max-width: 60%;
 }
 
@@ -321,6 +324,42 @@
 
 
 /*#region benefits*/
+.benefits_title>h2{
+    text-align: center;
+    color: var(--bg_withe);
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    letter-spacing: 2px;
+}
+
+.card_benefits{
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.card_benefits h2{
+    font-size: 4rem;
+    color: var(--bg_sec_violet);
+    margin-bottom: 1rem;
+}
+
+.card_benefits h3{
+    color: var(--bg_sec_violet);
+    margin-bottom: 1rem;
+}
+
+.card_benefits p{
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.btn_benefits{
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    color: var(--bg_withe);
+    background-color: var(--bg_sec_violet)
+}
 
 /*#endregion benefits*/
 
