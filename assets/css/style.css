@@ -510,7 +510,6 @@ body{
 
 @media screen and (max-width:768px){
 
-
     .col_lg_4{
         width: calc(100% / 12 * 4 - 1rem);
     }
@@ -529,7 +528,8 @@ body{
     }
 
     .flex_s{
-        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .width_60{
@@ -541,11 +541,16 @@ body{
         width: 90%;
         margin: auto;
     }
+/**********************
+        GENERAL
+************************/
+
 
     .phone{
-        max-width: 50%;
+        width: 50%;
         margin-top: 2rem;
     }
+    /*APPLICATION*/
 
     #img_left{
         max-width: 100%;
@@ -567,7 +572,7 @@ body{
         margin-bottom: 3rem;
         font-size: 1.5rem;
     }
-
+/*PLAIN*/
     .footer_container{
         max-width: 80%;
         margin: auto;
@@ -575,24 +580,28 @@ body{
 }
 
 @media screen and (max-width:480px) {
+
     .container{
         width: 100%;
+    }
+
+    .flex_s{
+        justify-content: left;
     }
 
     .col_sm_12{
         width: calc(100% /12 *12);
     }
+/**********************
+        GENERAL
+************************/
 
     .nav_right{
         display: none;
     }
-
-    .mb_center{
-        text-align: center;
-    }
-
+    /*PARTNERS*/
     .col_collum{
-        flex-direction: column;
+        justify-content: center;
     }
 
     .partners h2{
@@ -602,7 +611,7 @@ body{
     .text_center_s{
         text-align: left;
     }
-
+    /*BENEFITS*/
     .description p{
         max-width: 100%;
     }
@@ -617,7 +626,7 @@ body{
     .pricing h2 {
         font-size: 3rem;
     }
-
+    /*PRICING*/
     .footer_container p{
         width: 100%;
         margin: 2rem auto;
