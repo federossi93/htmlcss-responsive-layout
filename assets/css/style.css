@@ -160,6 +160,11 @@ body{
 .button_nav a{
     color: black;
 }
+
+.hamburger{
+    color: var(--bg_withe);
+    font-size: 2rem;
+}
 /*#endregion nav*/
 
 
@@ -545,6 +550,14 @@ body{
         GENERAL
 ************************/
 
+    .nav_right{
+    display: none;
+    }
+
+    .hamburger{
+    display: block;
+    }
+    /*NAV*/
 
     .phone{
         width: 50%;
@@ -609,6 +622,11 @@ body{
     .nav_right{
         display: none;
     }
+
+    .hamburger{
+        display: block;
+    }
+
     /*PARTNERS*/
     .col_collum{
         flex-direction: column;
