@@ -116,22 +116,6 @@ body{
 /*utility*/
 
 
-
-/*#region debug*/
-
-.debug footer{
-    background-color: var(--bg_footer);
-    height: 300px;
-    margin-top: -2rem;
-}
-
-.height_300{
-    height: 300px;
-    background-color: var(--bg_sec_violet);
-}
-/*#endregion debug*/
-
-
 /*#region nav*/
 
 .nav_container{
@@ -419,7 +403,60 @@ body{
 
 /*#region pricing*/
 
+.pricing h3{
+    padding-top: 4rem;
+    color: var(--bg_withe);
+    opacity: 0.4;
+}
+
+.pricing h2{
+    margin-top: 2rem;
+    color: var(--bg_withe);
+    font-size: 4rem;
+}
+
+.pricing h1{
+    margin-top: 2rem;
+    color: var(--clolor_orange);
+    font-size: 7rem;
+}
+
+.text_pricing{
+    width: 50%;
+    margin:2rem  auto;
+    margin-top: 2rem;
+    color: var(--bg_withe);
+    line-height: 2rem;
+}
+
+.btn_pricing{
+    padding: 1.5rem 6rem;
+    background-color: var(--bg_withe);
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4rem;
+    font-size: 2rem;
+    color: var(--bg_sec_violet);
+}
+
+.pricing p:last-child{
+    color: var(--bg_withe);
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.pricing a:last-child{
+    color: var(--bg_withe);
+}
 /*#endregion pricing*/
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:768px){
     .container{
