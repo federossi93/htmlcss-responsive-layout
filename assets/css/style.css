@@ -577,6 +577,16 @@ body{
         max-width: 80%;
         margin: auto;
     }
+/*PARTNERS*/
+
+    .partners p ,h2{
+        width: 90%;
+        margin: auto;
+    }
+
+    .partners p{
+        margin-bottom: 1rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -601,7 +611,7 @@ body{
     }
     /*PARTNERS*/
     .col_collum{
-        justify-content: center;
+        flex-direction: column;
     }
 
     .partners h2{
