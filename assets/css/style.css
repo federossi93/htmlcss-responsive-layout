@@ -362,6 +362,11 @@ body{
 
 
 /*#region about*/
+
+.text_center_s{
+    text-align: center;
+}
+
 .abaut_us h2{
     color: var(--bg_sec_violet);
     font-size: 3rem;
@@ -573,9 +578,52 @@ body{
     .container{
         width: 100%;
     }
+
     .col_sm_12{
-        width: calc(100%);
+        width: calc(100% /12 *12);
     }
 
-    .
+    .nav_right{
+        display: none;
+    }
+
+    .mb_center{
+        text-align: center;
+    }
+
+    .col_collum{
+        flex-direction: column;
+    }
+
+    .partners h2{
+        text-align: center;
+    }
+
+    .text_center_s{
+        text-align: left;
+    }
+
+    .description p{
+        max-width: 100%;
+    }
+
+    .text_pricing {
+        width: 90%;
+        margin: 2rem auto;
+        margin-top: 2rem;
+        line-height: 2rem;
+    }
+
+    .pricing h2 {
+        font-size: 3rem;
+    }
+
+    .footer_container p{
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .padding_2r{
+        padding: 2rem 0;
+    }
 }
