@@ -37,6 +37,10 @@
     gap: 1rem;
 }
 
+.row_gap{
+    row-gap: 2rem;
+}
+
 .width_60{
     width: 60%;
     margin: auto;
@@ -51,8 +55,20 @@
     padding: 2rem 0;
 }
 
+.padding_2r{
+    padding: 2rem;
+}
+
+.padding_1r{
+    padding: 1rem;
+}
+
 .margin_2{
     margin: 2rem 0;
+}
+
+.margin_b{
+    margin-bottom: 2rem;
 }
 
 .text_center{
@@ -87,28 +103,13 @@
 
 .col_11{width: calc(100% / 12 * 11);}
 
-.col_12{width: calc(100% / 12);}
+.col_12{width: calc(100% / 12 * 12);}
 
 /*utility*/
 
 
 
 /*#region debug*/
-
-
-
-
-.debug .col_3{
-    height: 100px;
-    background-color:var(--bg_sec_violet);
-    border: 1px solid black;
-}
-
-.debug .col_9{
-    height: 100px;
-    background-color:var(--bg_sec_violet);
-    border: 1px solid black;
-}
 
 .debug footer{
     background-color: var(--bg_footer);
@@ -168,17 +169,10 @@
     background-color: var(--bg_card);
     border-radius: 1rem;
 }
-/* immagine da rivedere*/
-.p_relative{
-    height: 100%;
-    position: relative;
-}
 
 .phone{
-    width: 80%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    max-width: 70%;
+    align-self: end;
 }
 
 .demo h2{
@@ -282,6 +276,47 @@
 
 /*#region partners*/
 
+.testimonials h3 {
+    margin-bottom: 2rem;
+}
+
+.testimonials h2 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: var(--bg_sec_violet);
+}
+
+.testimonials p{
+    margin: auto;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    max-width: 60%;
+}
+
+.bg_violet_rad{
+    background-color: var(--bg_sec_violet);
+    border-radius: 2rem;
+}
+
+.circular_square{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.partners{
+    align-self: center;
+    color: var(--bg_withe);
+    margin-left: 2rem;
+}
+
+.partners p{
+    margin-bottom: 1rem;
+}
+
+
 /*#endregion partners*/
 
 
@@ -299,17 +334,13 @@
 
 /*#endregion pricing*/
 
-@media screen and (min-width:768px) and (max-width:1280px) {
+@media screen and (max-width:768px){
     .container{
         width: 100%;
     }
 
     .flex_s{
         display: block;
-    }
-
-    .phone{
-        
     }
 
     .col_lg_6{
@@ -327,9 +358,5 @@
     }
     .col_sm_12{
         width: calc(100%);
-    }
-
-    .width_60_s{
-        
     }
 }
