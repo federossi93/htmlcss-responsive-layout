@@ -13,6 +13,10 @@
     --bg_withe: #FFFFFF;
 }
 
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
 .container{
     margin: 2rem 0;
 }
@@ -365,7 +369,51 @@
 
 
 /*#region about*/
+.abaut_us h2{
+    color: var(--bg_sec_violet);
+    font-size: 3rem;
+    padding-top: 2rem;
+}
 
+.abaut_us p{
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+
+.abaut_us p:last-child{
+    padding-bottom: 5rem;
+}
+
+.circular_square_abaut{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.description p{
+    max-width: 60%;
+    padding: 2rem 0;
+    margin: auto;
+    text-align: left;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    color: var(--bg_sec_violet);
+}
+
+.btn_linkedin{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: var(--bg_withe);
+    background-color: var(--bg_sec_violet)
+}
+
+.btn_bg{
+    color: black;
+    background-color: var(--bg_withe);
+    font-size: 0.7rem;
+}
 /*#endregion about*/
 
 
