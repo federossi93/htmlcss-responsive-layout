@@ -67,6 +67,10 @@ body{
     padding: 1rem;
 }
 
+.padding_n2{
+    margin-top: -2rem;
+}
+
 .margin_2{
     margin: 2rem 0;
 }
@@ -85,6 +89,10 @@ body{
 
 .bg_withe{
     background-color: var(--bg_withe);
+}
+
+.bg_footer{
+    background-color: var(--bg_footer);
 }
 
 .col_1{width: calc(100% / 12 * 1);}
@@ -197,6 +205,7 @@ body{
 }
 
 .button_app{
+    display: inline-block;
     padding: 1rem 2rem;
     margin-left: 1rem;
     border-radius: 2rem;
@@ -375,6 +384,25 @@ body{
     width: 200px;
 }
 
+.container_img{
+    position: relative;
+    display: inline-block;
+}
+
+.position{
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+
+.icon_r{
+    font-size: 4rem;
+    color: var(--bg_sec_violet);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .description p{
     max-width: 60%;
     padding: 2rem 0;
@@ -451,6 +479,23 @@ body{
 /*#endregion pricing*/
 
 
+/*#region footer*/
+
+.footer_container{
+    text-align: center;
+    color: var(--bg_withe);
+    max-width: 30%;
+    margin: auto;
+}
+
+.footer_container p{
+    margin: 2rem 0;
+}
+
+.footer_container a{
+    color: var(--bg_sec_violet);
+}
+/*#endregion footer*/
 
 
 
@@ -459,20 +504,68 @@ body{
 
 
 @media screen and (max-width:768px){
+
+
+    .col_lg_4{
+        width: calc(100% / 12 * 4 - 1rem);
+    }
+
+    .col_lg_6{
+        width: calc(100% / 12 * 6 - 1rem);
+    }
+
+    .col_lg_12{
+        width: calc(100% / 12 * 12);
+    }
+
+
     .container{
-        width: 100%;
+        max-width: 100%;
     }
 
     .flex_s{
         display: block;
     }
 
-    .col_lg_6{
-        width: calc(100% / 12 * 6);
+    .width_60{
+        width: 90%;
+        margin: auto;
     }
 
-    .col_lg_12{
-        width: calc(100%);
+    .width_60_s{
+        width: 90%;
+        margin: auto;
+    }
+
+    .phone{
+        max-width: 50%;
+        margin-top: 2rem;
+    }
+
+    #img_left{
+        max-width: 100%;
+    }
+
+    .plain_text{
+        width: 100%;
+    }
+    
+    .plain_text h2{
+        color: var(--bg_withe);
+        margin-top: 100px;
+        margin-bottom: 3rem;
+        font-size: 3rem;
+    }
+
+    .plain_text p{
+        color: var(--bg_withe);
+        margin-bottom: 3rem;
+        font-size: 1.5rem;
+    }
+
+    .footer_container{
+        max-width: 80%;
+        margin: auto;
     }
 }
 
@@ -483,4 +576,6 @@ body{
     .col_sm_12{
         width: calc(100%);
     }
+
+    .
 }
